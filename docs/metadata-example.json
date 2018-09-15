@@ -1,0 +1,52 @@
+{
+    "artist": "The Beatles",
+    "title": "Hey Jude",
+    "in-current-songbook": true,
+    "tabs": [
+        {
+            "difficulty": 0,
+            "key": "C",
+            "transposition": "+1",
+            "wednesdays-screen-suitable": true,
+            "song": {
+                "definitions": {
+                    "intro": {
+                        "content": "(C), (Am), (F), (G)",
+                        "boxed": false,
+                        "titled": true
+                    },
+                    "chorus": {
+                        "content": "(C), (Am), (F), (G)",
+                        "boxed": true,
+                        "titled": true
+                    },
+                    "verse-1": {
+                        "content": "(C), (Am), (F), (G)"
+                    },
+                    "verse-2": {
+                        "content": "(C), (Am), (F), (G)"
+                    }
+                },
+                "composition": ["intro", "verse-1", "chorus", "verse-2", "chorus"]
+            },
+            "chords": [
+                "C", "Am", "F", "G"
+            ],
+            "in-current-songbook": true,
+            "songbook-versions": [
+                "1", "2", "3"
+            ]
+        },
+        {
+            "difficulty": 5,
+            "key": "Bb",
+            "transposition": "0",
+            "wednesdays-screen-suitable": false,
+            "song": "",
+            "chords": [
+                "Bb", "E"
+            ],
+            "has-tab": true
+        }
+    ]
+}
