@@ -1,0 +1,89 @@
+body {
+    padding: 30px;
+    background-color: #fcfcfc;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1 {
+    text-align: center;
+    font-size: 3em;
+    font-weight: 600;
+}
+
+h3 {
+    font-size: 2em;
+    font-weight: 600;
+    text-align: center;
+}
+
+.title {
+    text-align: center;
+    display: inline-block;
+    width: 100%;
+    font-size: 1.2em;
+    font-weight: bold
+}
+
+.song-section {
+    white-space: pre-wrap;
+    margin: 20px auto;
+}
+
+#input {
+    width: 100%;
+    min-height: 300px;
+    margin: 20px auto;
+    padding: 20px;
+    display: inline-block;
+    white-space: pre-wrap;
+    border-color: rgb(169, 169, 169);
+    border-width: 1px;
+    border-style: solid;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.15em;
+    line-height: 1.2;
+}
+
+#wrap {
+    margin: 0 auto;
+    width: 80%;
+}
+
+#chord-diagrams {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.chord {
+    font-weight: bold;
+}
+
+.section-tag {
+    font-weight: bold;
+}
+
+#caret-marker {
+    width: 0;
+    display: none;
+}
+
+.setting-section button {
+    display: block;
+    margin: 10px auto;
+}
+
+#transpose button {
+    display: inline-block;
+}
+
+#songs {
+    list-style: none;
+}
+
+.song-link {
+    cursor: pointer;
+}
