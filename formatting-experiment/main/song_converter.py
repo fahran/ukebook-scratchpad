@@ -2,17 +2,20 @@ import html
 import re
 
 
-def to_html(raw):
-    raw_sections = raw.split("\n\n")
+def to_html(title, artist, raw_song_body):
+    title = f"<section class='title-line'>{html.escape(title)} - {html.escape(artist)}</section>\n\n"
+    return title + _body_to_html(raw_song_body)
 
+def _body_to_html(raw):
+    raw_sections = raw.split("\n\n")
     sections = []
     for section in raw_sections:
         if section != "":
             sections.append("<section class='song-section'>" + html.escape(section) + "</section>\n")
 
     song = "".join(sections).strip("\n")
-    # return song
     return _wrap_section_tags(_wrap_chords(song))
+
 
 def _wrap_chords(string):
     chord_regex = r"(\((.*?)\))"

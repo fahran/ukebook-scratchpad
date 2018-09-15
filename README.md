@@ -44,3 +44,10 @@ python -m unittest
 #### Integration
 To be thought about. Good puzzle.
 
+### TODOs and thoughts
+* I'm writing this using the Windows Subsystem for Linux. The file permissions are resultantly a bit bananas. At some point I'll check out in real Linux and fix it. https://blogs.msdn.microsoft.com/commandline/2018/01/12/chmod-chown-wsl-improvements/
+
+* The .css was ripped straight out of https://fahran.net/uke-tool, and needs cleaning up.
+
+
+
