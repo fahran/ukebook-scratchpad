@@ -1,7 +1,6 @@
 import html
 import re
 
-
 def to_html(title, artist, raw_song_body):
     title = f"<section class='title-line'>{html.escape(title)} - {html.escape(artist)}</section>\n\n"
     return title + _body_to_html(raw_song_body)

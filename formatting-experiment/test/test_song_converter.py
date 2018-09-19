@@ -1,4 +1,3 @@
-import sys, os
 from unittest import TestCase
 
 import main

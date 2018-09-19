@@ -18,4 +18,5 @@ html_out = open("out.html", "w")
 html_out.write(song_page)
 html_out.close()
 
-pdfkit.from_string(song_page, "out.pdf", css=css)
+options={'page-size':'A4', 'dpi':400}
+pdfkit.from_string(song_page, "out.pdf", css=css, options=options)
